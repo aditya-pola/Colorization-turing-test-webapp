@@ -5,7 +5,7 @@ import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 import ShareIcon from '@mui/icons-material/Share';
 
 // ← Replace this with the deployed Fly.io URL before sharing
-const STUDY_URL = 'https://colorization-study.fly.dev';
+const STUDY_URL = 'https://stvident-colorization.hf.space';
 
 export default function Done() {
   const [copied, setCopied] = useState(false);
