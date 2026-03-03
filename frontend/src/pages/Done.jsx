@@ -1,16 +1,23 @@
-import { useEffect, useState } from 'react';
-import { Box, Button, Card, CardContent, Snackbar, Typography } from '@mui/material';
+import { useEffect, useRef, useState } from 'react';
+import {
+  Box, Button, Card, CardContent, Snackbar,
+  TextField, Typography,
+} from '@mui/material';
 import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 import ShareIcon from '@mui/icons-material/Share';
 
-// ← Replace this with the deployed Fly.io URL before sharing
 const STUDY_URL = 'https://breakfast-garbage-leaf-wisdom.trycloudflare.com';
 
 export default function Done() {
   const [copied, setCopied] = useState(false);
+  const [feedback, setFeedback] = useState('');
+  const [feedbackSent, setFeedbackSent] = useState(false);
+  const sessionIdRef = useRef(null);
 
   useEffect(() => {
+    // Capture session_id before clearing
+    sessionIdRef.current = localStorage.getItem('session_id');
     localStorage.removeItem('session_id');
     localStorage.removeItem('trials');
     localStorage.removeItem('current_index');
@@ -21,7 +28,6 @@ export default function Done() {
       await navigator.clipboard.writeText(STUDY_URL);
       setCopied(true);
     } catch {
-      // Fallback for older browsers
       const el = document.createElement('textarea');
       el.value = STUDY_URL;
       document.body.appendChild(el);
@@ -42,6 +48,19 @@ export default function Done() {
     } else {
       handleCopy();
     }
+  };
+
+  const handleFeedbackSubmit = async () => {
+    if (!feedback.trim() || feedbackSent) return;
+    fetch('/api/session/feedback', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        session_id: sessionIdRef.current || '',
+        feedback: feedback.trim(),
+      }),
+    }).catch(console.error);
+    setFeedbackSent(true);
   };
 
   return (
@@ -74,18 +93,51 @@ export default function Done() {
             Your responses have been recorded. You completed 50 trials.
           </Typography>
 
-          <Typography variant="body2" color="text.secondary" textAlign="center" sx={{ mt: 1, opacity: 0.7 }}>
+          <Typography variant="body2" color="text.secondary" textAlign="center" sx={{ opacity: 0.7 }}>
             This study examines how well AI colorization techniques fool human perception.
           </Typography>
+
+          {/* Feedback */}
+          <Box sx={{ width: '100%', borderTop: 1, borderColor: 'divider', pt: 2.5, mt: 1 }}>
+            <Typography variant="body2" color="text.secondary" sx={{ mb: 1 }}>
+              Any thoughts? (optional)
+            </Typography>
+            <TextField
+              multiline
+              minRows={2}
+              maxRows={5}
+              fullWidth
+              placeholder="Anything confusing, interesting, or worth noting…"
+              value={feedback}
+              onChange={(e) => setFeedback(e.target.value)}
+              disabled={feedbackSent}
+              size="small"
+              variant="outlined"
+            />
+            {feedback.trim() && !feedbackSent && (
+              <Button
+                size="small"
+                variant="outlined"
+                onClick={handleFeedbackSubmit}
+                sx={{ mt: 1 }}
+              >
+                Send feedback
+              </Button>
+            )}
+            {feedbackSent && (
+              <Typography variant="caption" color="success.main" sx={{ mt: 1, display: 'block' }}>
+                Thanks for the feedback ✓
+              </Typography>
+            )}
+          </Box>
 
           {/* Share section */}
           <Box
             sx={{
-              mt: 2,
               width: '100%',
               borderTop: 1,
               borderColor: 'divider',
-              pt: 3,
+              pt: 2.5,
               display: 'flex',
               flexDirection: 'column',
               alignItems: 'center',

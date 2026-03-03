@@ -42,6 +42,11 @@ class CompleteRequest(BaseModel):
     session_id: str
 
 
+class FeedbackRequest(BaseModel):
+    session_id: str
+    feedback: str
+
+
 def sample_trials() -> list[dict]:
     """
     Sample 50 images: 10 gt images (randomly sampled from 15) + 40 colorized (8 per method),
@@ -166,3 +171,18 @@ async def complete_session(req: CompleteRequest):
         await db.close()
 
     return {"status": "completed"}
+
+
+@router.post("/feedback")
+async def submit_feedback(req: FeedbackRequest):
+    db = await get_db()
+    try:
+        await db.execute(
+            "UPDATE sessions SET feedback = ? WHERE session_id = ?",
+            (req.feedback.strip(), req.session_id),
+        )
+        await db.commit()
+    finally:
+        await db.close()
+
+    return {"status": "ok"}

@@ -35,6 +35,7 @@ async def download_csv(key: str = Query(None)):
                 s.device,
                 s.cb_redgreen,
                 s.cb_blueyellow,
+                s.feedback,
                 r.trial_index,
                 r.image_id,
                 r.image_path,
@@ -59,7 +60,7 @@ async def download_csv(key: str = Query(None)):
     writer = csv.writer(output)
     writer.writerow([
         "id", "session_id", "email", "expertise", "colorblind", "device",
-        "cb_redgreen", "cb_blueyellow",
+        "cb_redgreen", "cb_blueyellow", "feedback",
         "trial_index", "image_id", "image_path", "method", "variant",
         "dataset", "base_id", "label", "response", "correct",
         "response_time_ms", "created_at"
