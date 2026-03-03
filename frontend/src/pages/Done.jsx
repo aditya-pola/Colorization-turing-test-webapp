@@ -5,7 +5,7 @@ import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 import ShareIcon from '@mui/icons-material/Share';
 
 // ← Replace this with the deployed Fly.io URL before sharing
-const STUDY_URL = 'https://stvident-colorization.hf.space';
+const STUDY_URL = 'https://breakfast-garbage-leaf-wisdom.trycloudflare.com';
 
 export default function Done() {
   const [copied, setCopied] = useState(false);

@@ -34,7 +34,7 @@ app.include_router(session_router)
 app.include_router(results_router)
 
 # Static file mounts — order matters: more specific first
-app.mount("/images", StaticFiles(directory=str(BASE_DIR / "image_samples")), name="images")
+app.mount("/images", StaticFiles(directory=str(BASE_DIR / "image_samples_opt")), name="images")
 app.mount("/tutorial", StaticFiles(directory=str(BASE_DIR / "tutorial")), name="tutorial")
 
 # Frontend SPA — must be last

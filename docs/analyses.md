@@ -44,7 +44,7 @@ def dprime(hits, misses, fas, crs):
 d' = 0 → chance; d' = 1 → moderate sensitivity; d' ≥ 2 → strong.  
 Criterion c = −0.5 × (z_HR + z_FAR) tells you response bias (positive = conservative, negative = liberal).
 
-**Important:** The 20/80 real/fake base rate means you need at least 10 gt trials and 40 fake trials per participant — these are already guaranteed by the sampling scheme.
+**Important:** The 20/80 real/fake base rate (10 gt + 40 colorized per session) must be noted when interpreting criterion. These counts are fixed by the sampling scheme.
 
 ---
 
@@ -156,24 +156,30 @@ For images seen by multiple participants, compute Fleiss' kappa or just pairwise
 
 ```python
 import pandas as pd
-from scipy.stats import norm, mannwhitneyu, chi2_contingency
+from scipy.stats import norm, mannwhitneyu
 
+# Long-format CSV (one row per trial) — best for analysis
+# Download from: /api/results/csv?key=colorturingtest2025
 df = pd.read_csv('colorization_results.csv')
 
-# Filter completed sessions only
-completed = df[df['session_id'].isin(
-    df.groupby('session_id')['trial_index'].max()[lambda x: x >= 49].index
-)]
+# Filter completed sessions only (reached trial 49)
+complete_ids = df.groupby('session_id')['trial_index'].max()
+complete_ids = complete_ids[complete_ids >= 49].index
+df = df[df['session_id'].isin(complete_ids)]
 
-# Base rates
-print(completed['label'].value_counts(normalize=True))
+# Base rate check — should be ~20% real, 80% fake
+print(df['label'].value_counts(normalize=True))
 
 # Per-method detection rate (fake images only)
-fakes = completed[completed['label'] == 'fake']
+fakes = df[df['label'] == 'fake']
 print(fakes.groupby('method')['correct'].mean().sort_values())
 
 # Overall accuracy
-print("Overall accuracy:", completed['correct'].mean())
+print("Overall accuracy:", df['correct'].mean())
+
+# Participants with email (for follow-up)
+emails = df[['session_id','email']].drop_duplicates()
+print(emails[emails['email'] != ''])
 ```
 
 ---

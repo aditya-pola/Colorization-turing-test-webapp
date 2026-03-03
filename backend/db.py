@@ -23,6 +23,7 @@ async def init_db():
             CREATE TABLE IF NOT EXISTS sessions (
                 session_id TEXT PRIMARY KEY,
                 created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+                email TEXT DEFAULT '',
                 expertise TEXT,
                 colorblind INTEGER DEFAULT 0,
                 device TEXT,
@@ -32,6 +33,12 @@ async def init_db():
                 completed INTEGER DEFAULT 0
             )
         """)
+        # Migrate existing DB if email column missing
+        try:
+            await db.execute("ALTER TABLE sessions ADD COLUMN email TEXT DEFAULT ''")
+            await db.commit()
+        except Exception:
+            pass  # column already exists
         await db.execute("""
             CREATE TABLE IF NOT EXISTS responses (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,

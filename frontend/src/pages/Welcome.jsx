@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import {
   Box, Card, CardContent, Typography, Button, FormControl,
-  InputLabel, Select, MenuItem, CircularProgress, Fade
+  InputLabel, Select, MenuItem, CircularProgress, Fade, TextField
 } from '@mui/material';
 
 const PLATES = [
@@ -47,6 +47,7 @@ export default function Welcome() {
   const [plateStep, setPlateStep] = useState(0);
   const [plateAnswers, setPlateAnswers] = useState(['', '', '']);
   const [expertise, setExpertise] = useState('');
+  const [email, setEmail] = useState('');
   const [loading, setLoading] = useState(false);
 
   const allPlatesDone = plateStep >= PLATES.length;
@@ -78,6 +79,7 @@ export default function Welcome() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           expertise,
+          email: email.trim(),
           colorblind,
           device,
           cb_redgreen: cbRedgreen,
@@ -233,6 +235,17 @@ export default function Welcome() {
                     </MenuItem>
                   </Select>
                 </FormControl>
+
+                <TextField
+                  fullWidth
+                  label="Email address (optional)"
+                  type="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  placeholder="you@example.com"
+                  helperText="Only used if we need to follow up. Leave blank to stay anonymous."
+                  variant="outlined"
+                />
 
                 <Button
                   variant="contained"

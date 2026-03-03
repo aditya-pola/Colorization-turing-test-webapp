@@ -38,17 +38,26 @@ export default function Trial() {
     setImageLoaded(false);
   }, [currentIndex]);
 
-  // Preload next 2 images
+  // Preload all remaining images in the background (low priority, staggered)
   useEffect(() => {
     if (trials.length === 0) return;
-    for (let offset = 1; offset <= 2; offset++) {
-      const nextIdx = currentIndex + offset;
-      if (nextIdx < trials.length) {
+    // Immediately preload next 5 at high priority
+    for (let offset = 1; offset <= 5; offset++) {
+      const idx = currentIndex + offset;
+      if (idx < trials.length) {
         const img = new Image();
-        img.src = `/images/${trials[nextIdx].path}`;
+        img.src = `/images/${trials[idx].path}`;
       }
     }
-  }, [currentIndex, trials]);
+    // Stagger the rest so they don't compete with the current image
+    const rest = trials.slice(currentIndex + 6);
+    rest.forEach((trial, i) => {
+      setTimeout(() => {
+        const img = new Image();
+        img.src = `/images/${trial.path}`;
+      }, i * 150);
+    });
+  }, [trials]); // only runs once when trials load, not on every trial change
 
   const handleResponse = useCallback((response) => {
     if (trials.length === 0 || currentIndex >= trials.length) return;

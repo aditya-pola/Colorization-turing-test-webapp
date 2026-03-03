@@ -15,7 +15,7 @@ from ..db import get_db
 router = APIRouter(prefix="/api/session", tags=["session"])
 
 # Load manifest once at module level
-MANIFEST_PATH = Path(__file__).resolve().parent.parent.parent / "manifest.json"
+MANIFEST_PATH = Path(__file__).resolve().parent.parent.parent / "manifest_opt.json"
 with open(MANIFEST_PATH) as f:
     MANIFEST = json.load(f)
 
@@ -24,6 +24,7 @@ class StartRequest(BaseModel):
     expertise: str
     colorblind: int  # 0 or 1
     device: str
+    email: str = ""         # optional contact email
     cb_redgreen: str = ""   # "normal" | "deficient" | "unsure"
     cb_blueyellow: str = "" # "normal" | "deficient" | "unsure"
 
@@ -97,8 +98,8 @@ async def start_session(req: StartRequest):
     db = await get_db()
     try:
         await db.execute(
-            "INSERT INTO sessions (session_id, expertise, colorblind, device, cb_redgreen, cb_blueyellow, trials) VALUES (?, ?, ?, ?, ?, ?, ?)",
-            (session_id, req.expertise, req.colorblind, req.device, req.cb_redgreen, req.cb_blueyellow, json.dumps(trials)),
+            "INSERT INTO sessions (session_id, email, expertise, colorblind, device, cb_redgreen, cb_blueyellow, trials) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
+            (session_id, req.email, req.expertise, req.colorblind, req.device, req.cb_redgreen, req.cb_blueyellow, json.dumps(trials)),
         )
         await db.commit()
     finally:

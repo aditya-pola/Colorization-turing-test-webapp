@@ -1,0 +1,1487 @@
+[
+  {
+    "id": "bigcolor/ortho/coco/000000000001",
+    "path": "bigcolor/ortho/coco/000000000001_c675.jpg",
+    "method": "bigcolor",
+    "variant": "ortho",
+    "dataset": "coco",
+    "base_id": "000000000001",
+    "label": "fake"
+  },
+  {
+    "id": "bigcolor/ortho/coco/000000000016",
+    "path": "bigcolor/ortho/coco/000000000016_c981.jpg",
+    "method": "bigcolor",
+    "variant": "ortho",
+    "dataset": "coco",
+    "base_id": "000000000016",
+    "label": "fake"
+  },
+  {
+    "id": "bigcolor/ortho/coco/000000000019",
+    "path": "bigcolor/ortho/coco/000000000019_c345.jpg",
+    "method": "bigcolor",
+    "variant": "ortho",
+    "dataset": "coco",
+    "base_id": "000000000019",
+    "label": "fake"
+  },
+  {
+    "id": "bigcolor/ortho/coco/000000000057",
+    "path": "bigcolor/ortho/coco/000000000057_c752.jpg",
+    "method": "bigcolor",
+    "variant": "ortho",
+    "dataset": "coco",
+    "base_id": "000000000057",
+    "label": "fake"
+  },
+  {
+    "id": "bigcolor/ortho/coco/000000000063",
+    "path": "bigcolor/ortho/coco/000000000063_c522.jpg",
+    "method": "bigcolor",
+    "variant": "ortho",
+    "dataset": "coco",
+    "base_id": "000000000063",
+    "label": "fake"
+  },
+  {
+    "id": "bigcolor/ortho/imagenet/ILSVRC2012_val_00000001",
+    "path": "bigcolor/ortho/imagenet/ILSVRC2012_val_00000001_c065.jpg",
+    "method": "bigcolor",
+    "variant": "ortho",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000001",
+    "label": "fake"
+  },
+  {
+    "id": "bigcolor/ortho/imagenet/ILSVRC2012_val_00000002",
+    "path": "bigcolor/ortho/imagenet/ILSVRC2012_val_00000002_c795.jpg",
+    "method": "bigcolor",
+    "variant": "ortho",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000002",
+    "label": "fake"
+  },
+  {
+    "id": "bigcolor/ortho/imagenet/ILSVRC2012_val_00000003",
+    "path": "bigcolor/ortho/imagenet/ILSVRC2012_val_00000003_c231.jpg",
+    "method": "bigcolor",
+    "variant": "ortho",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000003",
+    "label": "fake"
+  },
+  {
+    "id": "bigcolor/ortho/imagenet/ILSVRC2012_val_00000004",
+    "path": "bigcolor/ortho/imagenet/ILSVRC2012_val_00000004_c809.jpg",
+    "method": "bigcolor",
+    "variant": "ortho",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000004",
+    "label": "fake"
+  },
+  {
+    "id": "bigcolor/ortho/imagenet/ILSVRC2012_val_00000005",
+    "path": "bigcolor/ortho/imagenet/ILSVRC2012_val_00000005_c516.jpg",
+    "method": "bigcolor",
+    "variant": "ortho",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000005",
+    "label": "fake"
+  },
+  {
+    "id": "bigcolor/ortho/instance/ADE_train_00000732",
+    "path": "bigcolor/ortho/instance/ADE_train_00000732_c579.jpg",
+    "method": "bigcolor",
+    "variant": "ortho",
+    "dataset": "instance",
+    "base_id": "ADE_train_00000732",
+    "label": "fake"
+  },
+  {
+    "id": "bigcolor/ortho/instance/ADE_train_00003253",
+    "path": "bigcolor/ortho/instance/ADE_train_00003253_c750.jpg",
+    "method": "bigcolor",
+    "variant": "ortho",
+    "dataset": "instance",
+    "base_id": "ADE_train_00003253",
+    "label": "fake"
+  },
+  {
+    "id": "bigcolor/ortho/instance/ADE_train_00003558",
+    "path": "bigcolor/ortho/instance/ADE_train_00003558_c564.jpg",
+    "method": "bigcolor",
+    "variant": "ortho",
+    "dataset": "instance",
+    "base_id": "ADE_train_00003558",
+    "label": "fake"
+  },
+  {
+    "id": "bigcolor/ortho/instance/ADE_train_00004140",
+    "path": "bigcolor/ortho/instance/ADE_train_00004140_c564.jpg",
+    "method": "bigcolor",
+    "variant": "ortho",
+    "dataset": "instance",
+    "base_id": "ADE_train_00004140",
+    "label": "fake"
+  },
+  {
+    "id": "bigcolor/ortho/instance/ADE_train_00005198",
+    "path": "bigcolor/ortho/instance/ADE_train_00005198_c762.jpg",
+    "method": "bigcolor",
+    "variant": "ortho",
+    "dataset": "instance",
+    "base_id": "ADE_train_00005198",
+    "label": "fake"
+  },
+  {
+    "id": "bigcolor/standard/coco/000000000001",
+    "path": "bigcolor/standard/coco/000000000001_c468.jpg",
+    "method": "bigcolor",
+    "variant": "standard",
+    "dataset": "coco",
+    "base_id": "000000000001",
+    "label": "fake"
+  },
+  {
+    "id": "bigcolor/standard/coco/000000000016",
+    "path": "bigcolor/standard/coco/000000000016_c981.jpg",
+    "method": "bigcolor",
+    "variant": "standard",
+    "dataset": "coco",
+    "base_id": "000000000016",
+    "label": "fake"
+  },
+  {
+    "id": "bigcolor/standard/coco/000000000019",
+    "path": "bigcolor/standard/coco/000000000019_c345.jpg",
+    "method": "bigcolor",
+    "variant": "standard",
+    "dataset": "coco",
+    "base_id": "000000000019",
+    "label": "fake"
+  },
+  {
+    "id": "bigcolor/standard/coco/000000000057",
+    "path": "bigcolor/standard/coco/000000000057_c752.jpg",
+    "method": "bigcolor",
+    "variant": "standard",
+    "dataset": "coco",
+    "base_id": "000000000057",
+    "label": "fake"
+  },
+  {
+    "id": "bigcolor/standard/coco/000000000063",
+    "path": "bigcolor/standard/coco/000000000063_c981.jpg",
+    "method": "bigcolor",
+    "variant": "standard",
+    "dataset": "coco",
+    "base_id": "000000000063",
+    "label": "fake"
+  },
+  {
+    "id": "bigcolor/standard/imagenet/ILSVRC2012_val_00000001",
+    "path": "bigcolor/standard/imagenet/ILSVRC2012_val_00000001_c065.jpg",
+    "method": "bigcolor",
+    "variant": "standard",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000001",
+    "label": "fake"
+  },
+  {
+    "id": "bigcolor/standard/imagenet/ILSVRC2012_val_00000002",
+    "path": "bigcolor/standard/imagenet/ILSVRC2012_val_00000002_c795.jpg",
+    "method": "bigcolor",
+    "variant": "standard",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000002",
+    "label": "fake"
+  },
+  {
+    "id": "bigcolor/standard/imagenet/ILSVRC2012_val_00000003",
+    "path": "bigcolor/standard/imagenet/ILSVRC2012_val_00000003_c231.jpg",
+    "method": "bigcolor",
+    "variant": "standard",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000003",
+    "label": "fake"
+  },
+  {
+    "id": "bigcolor/standard/imagenet/ILSVRC2012_val_00000004",
+    "path": "bigcolor/standard/imagenet/ILSVRC2012_val_00000004_c809.jpg",
+    "method": "bigcolor",
+    "variant": "standard",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000004",
+    "label": "fake"
+  },
+  {
+    "id": "bigcolor/standard/imagenet/ILSVRC2012_val_00000005",
+    "path": "bigcolor/standard/imagenet/ILSVRC2012_val_00000005_c516.jpg",
+    "method": "bigcolor",
+    "variant": "standard",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000005",
+    "label": "fake"
+  },
+  {
+    "id": "bigcolor/standard/instance/ADE_train_00000732",
+    "path": "bigcolor/standard/instance/ADE_train_00000732_c579.jpg",
+    "method": "bigcolor",
+    "variant": "standard",
+    "dataset": "instance",
+    "base_id": "ADE_train_00000732",
+    "label": "fake"
+  },
+  {
+    "id": "bigcolor/standard/instance/ADE_train_00003253",
+    "path": "bigcolor/standard/instance/ADE_train_00003253_c750.jpg",
+    "method": "bigcolor",
+    "variant": "standard",
+    "dataset": "instance",
+    "base_id": "ADE_train_00003253",
+    "label": "fake"
+  },
+  {
+    "id": "bigcolor/standard/instance/ADE_train_00003558",
+    "path": "bigcolor/standard/instance/ADE_train_00003558_c564.jpg",
+    "method": "bigcolor",
+    "variant": "standard",
+    "dataset": "instance",
+    "base_id": "ADE_train_00003558",
+    "label": "fake"
+  },
+  {
+    "id": "bigcolor/standard/instance/ADE_train_00004140",
+    "path": "bigcolor/standard/instance/ADE_train_00004140_c564.jpg",
+    "method": "bigcolor",
+    "variant": "standard",
+    "dataset": "instance",
+    "base_id": "ADE_train_00004140",
+    "label": "fake"
+  },
+  {
+    "id": "bigcolor/standard/instance/ADE_train_00005198",
+    "path": "bigcolor/standard/instance/ADE_train_00005198_c762.jpg",
+    "method": "bigcolor",
+    "variant": "standard",
+    "dataset": "instance",
+    "base_id": "ADE_train_00005198",
+    "label": "fake"
+  },
+  {
+    "id": "ddcolor/ortho/coco/000000000001",
+    "path": "ddcolor/ortho/coco/000000000001.jpg",
+    "method": "ddcolor",
+    "variant": "ortho",
+    "dataset": "coco",
+    "base_id": "000000000001",
+    "label": "fake"
+  },
+  {
+    "id": "ddcolor/ortho/coco/000000000016",
+    "path": "ddcolor/ortho/coco/000000000016.jpg",
+    "method": "ddcolor",
+    "variant": "ortho",
+    "dataset": "coco",
+    "base_id": "000000000016",
+    "label": "fake"
+  },
+  {
+    "id": "ddcolor/ortho/coco/000000000019",
+    "path": "ddcolor/ortho/coco/000000000019.jpg",
+    "method": "ddcolor",
+    "variant": "ortho",
+    "dataset": "coco",
+    "base_id": "000000000019",
+    "label": "fake"
+  },
+  {
+    "id": "ddcolor/ortho/coco/000000000057",
+    "path": "ddcolor/ortho/coco/000000000057.jpg",
+    "method": "ddcolor",
+    "variant": "ortho",
+    "dataset": "coco",
+    "base_id": "000000000057",
+    "label": "fake"
+  },
+  {
+    "id": "ddcolor/ortho/coco/000000000063",
+    "path": "ddcolor/ortho/coco/000000000063.jpg",
+    "method": "ddcolor",
+    "variant": "ortho",
+    "dataset": "coco",
+    "base_id": "000000000063",
+    "label": "fake"
+  },
+  {
+    "id": "ddcolor/ortho/imagenet/ILSVRC2012_val_00000001",
+    "path": "ddcolor/ortho/imagenet/ILSVRC2012_val_00000001.jpg",
+    "method": "ddcolor",
+    "variant": "ortho",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000001",
+    "label": "fake"
+  },
+  {
+    "id": "ddcolor/ortho/imagenet/ILSVRC2012_val_00000002",
+    "path": "ddcolor/ortho/imagenet/ILSVRC2012_val_00000002.jpg",
+    "method": "ddcolor",
+    "variant": "ortho",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000002",
+    "label": "fake"
+  },
+  {
+    "id": "ddcolor/ortho/imagenet/ILSVRC2012_val_00000003",
+    "path": "ddcolor/ortho/imagenet/ILSVRC2012_val_00000003.jpg",
+    "method": "ddcolor",
+    "variant": "ortho",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000003",
+    "label": "fake"
+  },
+  {
+    "id": "ddcolor/ortho/imagenet/ILSVRC2012_val_00000004",
+    "path": "ddcolor/ortho/imagenet/ILSVRC2012_val_00000004.jpg",
+    "method": "ddcolor",
+    "variant": "ortho",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000004",
+    "label": "fake"
+  },
+  {
+    "id": "ddcolor/ortho/imagenet/ILSVRC2012_val_00000005",
+    "path": "ddcolor/ortho/imagenet/ILSVRC2012_val_00000005.jpg",
+    "method": "ddcolor",
+    "variant": "ortho",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000005",
+    "label": "fake"
+  },
+  {
+    "id": "ddcolor/ortho/instance/ADE_train_00000732",
+    "path": "ddcolor/ortho/instance/ADE_train_00000732.jpg",
+    "method": "ddcolor",
+    "variant": "ortho",
+    "dataset": "instance",
+    "base_id": "ADE_train_00000732",
+    "label": "fake"
+  },
+  {
+    "id": "ddcolor/ortho/instance/ADE_train_00003253",
+    "path": "ddcolor/ortho/instance/ADE_train_00003253.jpg",
+    "method": "ddcolor",
+    "variant": "ortho",
+    "dataset": "instance",
+    "base_id": "ADE_train_00003253",
+    "label": "fake"
+  },
+  {
+    "id": "ddcolor/ortho/instance/ADE_train_00003558",
+    "path": "ddcolor/ortho/instance/ADE_train_00003558.jpg",
+    "method": "ddcolor",
+    "variant": "ortho",
+    "dataset": "instance",
+    "base_id": "ADE_train_00003558",
+    "label": "fake"
+  },
+  {
+    "id": "ddcolor/ortho/instance/ADE_train_00004140",
+    "path": "ddcolor/ortho/instance/ADE_train_00004140.jpg",
+    "method": "ddcolor",
+    "variant": "ortho",
+    "dataset": "instance",
+    "base_id": "ADE_train_00004140",
+    "label": "fake"
+  },
+  {
+    "id": "ddcolor/ortho/instance/ADE_train_00005198",
+    "path": "ddcolor/ortho/instance/ADE_train_00005198.jpg",
+    "method": "ddcolor",
+    "variant": "ortho",
+    "dataset": "instance",
+    "base_id": "ADE_train_00005198",
+    "label": "fake"
+  },
+  {
+    "id": "ddcolor/standard/coco/000000000001",
+    "path": "ddcolor/standard/coco/000000000001.jpg",
+    "method": "ddcolor",
+    "variant": "standard",
+    "dataset": "coco",
+    "base_id": "000000000001",
+    "label": "fake"
+  },
+  {
+    "id": "ddcolor/standard/coco/000000000016",
+    "path": "ddcolor/standard/coco/000000000016.jpg",
+    "method": "ddcolor",
+    "variant": "standard",
+    "dataset": "coco",
+    "base_id": "000000000016",
+    "label": "fake"
+  },
+  {
+    "id": "ddcolor/standard/coco/000000000019",
+    "path": "ddcolor/standard/coco/000000000019.jpg",
+    "method": "ddcolor",
+    "variant": "standard",
+    "dataset": "coco",
+    "base_id": "000000000019",
+    "label": "fake"
+  },
+  {
+    "id": "ddcolor/standard/coco/000000000057",
+    "path": "ddcolor/standard/coco/000000000057.jpg",
+    "method": "ddcolor",
+    "variant": "standard",
+    "dataset": "coco",
+    "base_id": "000000000057",
+    "label": "fake"
+  },
+  {
+    "id": "ddcolor/standard/coco/000000000063",
+    "path": "ddcolor/standard/coco/000000000063.jpg",
+    "method": "ddcolor",
+    "variant": "standard",
+    "dataset": "coco",
+    "base_id": "000000000063",
+    "label": "fake"
+  },
+  {
+    "id": "ddcolor/standard/imagenet/ILSVRC2012_val_00000001",
+    "path": "ddcolor/standard/imagenet/ILSVRC2012_val_00000001.jpg",
+    "method": "ddcolor",
+    "variant": "standard",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000001",
+    "label": "fake"
+  },
+  {
+    "id": "ddcolor/standard/imagenet/ILSVRC2012_val_00000002",
+    "path": "ddcolor/standard/imagenet/ILSVRC2012_val_00000002.jpg",
+    "method": "ddcolor",
+    "variant": "standard",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000002",
+    "label": "fake"
+  },
+  {
+    "id": "ddcolor/standard/imagenet/ILSVRC2012_val_00000003",
+    "path": "ddcolor/standard/imagenet/ILSVRC2012_val_00000003.jpg",
+    "method": "ddcolor",
+    "variant": "standard",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000003",
+    "label": "fake"
+  },
+  {
+    "id": "ddcolor/standard/imagenet/ILSVRC2012_val_00000004",
+    "path": "ddcolor/standard/imagenet/ILSVRC2012_val_00000004.jpg",
+    "method": "ddcolor",
+    "variant": "standard",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000004",
+    "label": "fake"
+  },
+  {
+    "id": "ddcolor/standard/imagenet/ILSVRC2012_val_00000005",
+    "path": "ddcolor/standard/imagenet/ILSVRC2012_val_00000005.jpg",
+    "method": "ddcolor",
+    "variant": "standard",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000005",
+    "label": "fake"
+  },
+  {
+    "id": "ddcolor/standard/instance/ADE_train_00000732",
+    "path": "ddcolor/standard/instance/ADE_train_00000732.jpg",
+    "method": "ddcolor",
+    "variant": "standard",
+    "dataset": "instance",
+    "base_id": "ADE_train_00000732",
+    "label": "fake"
+  },
+  {
+    "id": "ddcolor/standard/instance/ADE_train_00003253",
+    "path": "ddcolor/standard/instance/ADE_train_00003253.jpg",
+    "method": "ddcolor",
+    "variant": "standard",
+    "dataset": "instance",
+    "base_id": "ADE_train_00003253",
+    "label": "fake"
+  },
+  {
+    "id": "ddcolor/standard/instance/ADE_train_00003558",
+    "path": "ddcolor/standard/instance/ADE_train_00003558.jpg",
+    "method": "ddcolor",
+    "variant": "standard",
+    "dataset": "instance",
+    "base_id": "ADE_train_00003558",
+    "label": "fake"
+  },
+  {
+    "id": "ddcolor/standard/instance/ADE_train_00004140",
+    "path": "ddcolor/standard/instance/ADE_train_00004140.jpg",
+    "method": "ddcolor",
+    "variant": "standard",
+    "dataset": "instance",
+    "base_id": "ADE_train_00004140",
+    "label": "fake"
+  },
+  {
+    "id": "ddcolor/standard/instance/ADE_train_00005198",
+    "path": "ddcolor/standard/instance/ADE_train_00005198.jpg",
+    "method": "ddcolor",
+    "variant": "standard",
+    "dataset": "instance",
+    "base_id": "ADE_train_00005198",
+    "label": "fake"
+  },
+  {
+    "id": "disco/ortho/coco/000000000001",
+    "path": "disco/ortho/coco/000000000001.jpg",
+    "method": "disco",
+    "variant": "ortho",
+    "dataset": "coco",
+    "base_id": "000000000001",
+    "label": "fake"
+  },
+  {
+    "id": "disco/ortho/coco/000000000016",
+    "path": "disco/ortho/coco/000000000016.jpg",
+    "method": "disco",
+    "variant": "ortho",
+    "dataset": "coco",
+    "base_id": "000000000016",
+    "label": "fake"
+  },
+  {
+    "id": "disco/ortho/coco/000000000019",
+    "path": "disco/ortho/coco/000000000019.jpg",
+    "method": "disco",
+    "variant": "ortho",
+    "dataset": "coco",
+    "base_id": "000000000019",
+    "label": "fake"
+  },
+  {
+    "id": "disco/ortho/coco/000000000057",
+    "path": "disco/ortho/coco/000000000057.jpg",
+    "method": "disco",
+    "variant": "ortho",
+    "dataset": "coco",
+    "base_id": "000000000057",
+    "label": "fake"
+  },
+  {
+    "id": "disco/ortho/coco/000000000063",
+    "path": "disco/ortho/coco/000000000063.jpg",
+    "method": "disco",
+    "variant": "ortho",
+    "dataset": "coco",
+    "base_id": "000000000063",
+    "label": "fake"
+  },
+  {
+    "id": "disco/ortho/imagenet/ILSVRC2012_val_00000001",
+    "path": "disco/ortho/imagenet/ILSVRC2012_val_00000001.jpg",
+    "method": "disco",
+    "variant": "ortho",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000001",
+    "label": "fake"
+  },
+  {
+    "id": "disco/ortho/imagenet/ILSVRC2012_val_00000002",
+    "path": "disco/ortho/imagenet/ILSVRC2012_val_00000002.jpg",
+    "method": "disco",
+    "variant": "ortho",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000002",
+    "label": "fake"
+  },
+  {
+    "id": "disco/ortho/imagenet/ILSVRC2012_val_00000003",
+    "path": "disco/ortho/imagenet/ILSVRC2012_val_00000003.jpg",
+    "method": "disco",
+    "variant": "ortho",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000003",
+    "label": "fake"
+  },
+  {
+    "id": "disco/ortho/imagenet/ILSVRC2012_val_00000004",
+    "path": "disco/ortho/imagenet/ILSVRC2012_val_00000004.jpg",
+    "method": "disco",
+    "variant": "ortho",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000004",
+    "label": "fake"
+  },
+  {
+    "id": "disco/ortho/imagenet/ILSVRC2012_val_00000005",
+    "path": "disco/ortho/imagenet/ILSVRC2012_val_00000005.jpg",
+    "method": "disco",
+    "variant": "ortho",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000005",
+    "label": "fake"
+  },
+  {
+    "id": "disco/ortho/instance/ADE_train_00000732",
+    "path": "disco/ortho/instance/ADE_train_00000732.jpg",
+    "method": "disco",
+    "variant": "ortho",
+    "dataset": "instance",
+    "base_id": "ADE_train_00000732",
+    "label": "fake"
+  },
+  {
+    "id": "disco/ortho/instance/ADE_train_00003253",
+    "path": "disco/ortho/instance/ADE_train_00003253.jpg",
+    "method": "disco",
+    "variant": "ortho",
+    "dataset": "instance",
+    "base_id": "ADE_train_00003253",
+    "label": "fake"
+  },
+  {
+    "id": "disco/ortho/instance/ADE_train_00003558",
+    "path": "disco/ortho/instance/ADE_train_00003558.jpg",
+    "method": "disco",
+    "variant": "ortho",
+    "dataset": "instance",
+    "base_id": "ADE_train_00003558",
+    "label": "fake"
+  },
+  {
+    "id": "disco/ortho/instance/ADE_train_00004140",
+    "path": "disco/ortho/instance/ADE_train_00004140.jpg",
+    "method": "disco",
+    "variant": "ortho",
+    "dataset": "instance",
+    "base_id": "ADE_train_00004140",
+    "label": "fake"
+  },
+  {
+    "id": "disco/ortho/instance/ADE_train_00005198",
+    "path": "disco/ortho/instance/ADE_train_00005198.jpg",
+    "method": "disco",
+    "variant": "ortho",
+    "dataset": "instance",
+    "base_id": "ADE_train_00005198",
+    "label": "fake"
+  },
+  {
+    "id": "disco/standard/coco/000000000001",
+    "path": "disco/standard/coco/000000000001.jpg",
+    "method": "disco",
+    "variant": "standard",
+    "dataset": "coco",
+    "base_id": "000000000001",
+    "label": "fake"
+  },
+  {
+    "id": "disco/standard/coco/000000000016",
+    "path": "disco/standard/coco/000000000016.jpg",
+    "method": "disco",
+    "variant": "standard",
+    "dataset": "coco",
+    "base_id": "000000000016",
+    "label": "fake"
+  },
+  {
+    "id": "disco/standard/coco/000000000019",
+    "path": "disco/standard/coco/000000000019.jpg",
+    "method": "disco",
+    "variant": "standard",
+    "dataset": "coco",
+    "base_id": "000000000019",
+    "label": "fake"
+  },
+  {
+    "id": "disco/standard/coco/000000000057",
+    "path": "disco/standard/coco/000000000057.jpg",
+    "method": "disco",
+    "variant": "standard",
+    "dataset": "coco",
+    "base_id": "000000000057",
+    "label": "fake"
+  },
+  {
+    "id": "disco/standard/coco/000000000063",
+    "path": "disco/standard/coco/000000000063.jpg",
+    "method": "disco",
+    "variant": "standard",
+    "dataset": "coco",
+    "base_id": "000000000063",
+    "label": "fake"
+  },
+  {
+    "id": "disco/standard/imagenet/ILSVRC2012_val_00000001",
+    "path": "disco/standard/imagenet/ILSVRC2012_val_00000001.jpg",
+    "method": "disco",
+    "variant": "standard",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000001",
+    "label": "fake"
+  },
+  {
+    "id": "disco/standard/imagenet/ILSVRC2012_val_00000002",
+    "path": "disco/standard/imagenet/ILSVRC2012_val_00000002.jpg",
+    "method": "disco",
+    "variant": "standard",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000002",
+    "label": "fake"
+  },
+  {
+    "id": "disco/standard/imagenet/ILSVRC2012_val_00000003",
+    "path": "disco/standard/imagenet/ILSVRC2012_val_00000003.jpg",
+    "method": "disco",
+    "variant": "standard",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000003",
+    "label": "fake"
+  },
+  {
+    "id": "disco/standard/imagenet/ILSVRC2012_val_00000004",
+    "path": "disco/standard/imagenet/ILSVRC2012_val_00000004.jpg",
+    "method": "disco",
+    "variant": "standard",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000004",
+    "label": "fake"
+  },
+  {
+    "id": "disco/standard/imagenet/ILSVRC2012_val_00000005",
+    "path": "disco/standard/imagenet/ILSVRC2012_val_00000005.jpg",
+    "method": "disco",
+    "variant": "standard",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000005",
+    "label": "fake"
+  },
+  {
+    "id": "disco/standard/instance/ADE_train_00000732",
+    "path": "disco/standard/instance/ADE_train_00000732.jpg",
+    "method": "disco",
+    "variant": "standard",
+    "dataset": "instance",
+    "base_id": "ADE_train_00000732",
+    "label": "fake"
+  },
+  {
+    "id": "disco/standard/instance/ADE_train_00003253",
+    "path": "disco/standard/instance/ADE_train_00003253.jpg",
+    "method": "disco",
+    "variant": "standard",
+    "dataset": "instance",
+    "base_id": "ADE_train_00003253",
+    "label": "fake"
+  },
+  {
+    "id": "disco/standard/instance/ADE_train_00003558",
+    "path": "disco/standard/instance/ADE_train_00003558.jpg",
+    "method": "disco",
+    "variant": "standard",
+    "dataset": "instance",
+    "base_id": "ADE_train_00003558",
+    "label": "fake"
+  },
+  {
+    "id": "disco/standard/instance/ADE_train_00004140",
+    "path": "disco/standard/instance/ADE_train_00004140.jpg",
+    "method": "disco",
+    "variant": "standard",
+    "dataset": "instance",
+    "base_id": "ADE_train_00004140",
+    "label": "fake"
+  },
+  {
+    "id": "disco/standard/instance/ADE_train_00005198",
+    "path": "disco/standard/instance/ADE_train_00005198.jpg",
+    "method": "disco",
+    "variant": "standard",
+    "dataset": "instance",
+    "base_id": "ADE_train_00005198",
+    "label": "fake"
+  },
+  {
+    "id": "gt/standard/coco/000000000001",
+    "path": "gt/standard/coco/000000000001.jpg",
+    "method": "gt",
+    "variant": "standard",
+    "dataset": "coco",
+    "base_id": "000000000001",
+    "label": "real"
+  },
+  {
+    "id": "gt/standard/coco/000000000016",
+    "path": "gt/standard/coco/000000000016.jpg",
+    "method": "gt",
+    "variant": "standard",
+    "dataset": "coco",
+    "base_id": "000000000016",
+    "label": "real"
+  },
+  {
+    "id": "gt/standard/coco/000000000019",
+    "path": "gt/standard/coco/000000000019.jpg",
+    "method": "gt",
+    "variant": "standard",
+    "dataset": "coco",
+    "base_id": "000000000019",
+    "label": "real"
+  },
+  {
+    "id": "gt/standard/coco/000000000057",
+    "path": "gt/standard/coco/000000000057.jpg",
+    "method": "gt",
+    "variant": "standard",
+    "dataset": "coco",
+    "base_id": "000000000057",
+    "label": "real"
+  },
+  {
+    "id": "gt/standard/coco/000000000063",
+    "path": "gt/standard/coco/000000000063.jpg",
+    "method": "gt",
+    "variant": "standard",
+    "dataset": "coco",
+    "base_id": "000000000063",
+    "label": "real"
+  },
+  {
+    "id": "gt/standard/imagenet/ILSVRC2012_val_00000001",
+    "path": "gt/standard/imagenet/ILSVRC2012_val_00000001.jpg",
+    "method": "gt",
+    "variant": "standard",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000001",
+    "label": "real"
+  },
+  {
+    "id": "gt/standard/imagenet/ILSVRC2012_val_00000002",
+    "path": "gt/standard/imagenet/ILSVRC2012_val_00000002.jpg",
+    "method": "gt",
+    "variant": "standard",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000002",
+    "label": "real"
+  },
+  {
+    "id": "gt/standard/imagenet/ILSVRC2012_val_00000003",
+    "path": "gt/standard/imagenet/ILSVRC2012_val_00000003.jpg",
+    "method": "gt",
+    "variant": "standard",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000003",
+    "label": "real"
+  },
+  {
+    "id": "gt/standard/imagenet/ILSVRC2012_val_00000004",
+    "path": "gt/standard/imagenet/ILSVRC2012_val_00000004.jpg",
+    "method": "gt",
+    "variant": "standard",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000004",
+    "label": "real"
+  },
+  {
+    "id": "gt/standard/imagenet/ILSVRC2012_val_00000005",
+    "path": "gt/standard/imagenet/ILSVRC2012_val_00000005.jpg",
+    "method": "gt",
+    "variant": "standard",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000005",
+    "label": "real"
+  },
+  {
+    "id": "gt/standard/instance/ADE_train_00000732",
+    "path": "gt/standard/instance/ADE_train_00000732.jpg",
+    "method": "gt",
+    "variant": "standard",
+    "dataset": "instance",
+    "base_id": "ADE_train_00000732",
+    "label": "real"
+  },
+  {
+    "id": "gt/standard/instance/ADE_train_00003253",
+    "path": "gt/standard/instance/ADE_train_00003253.jpg",
+    "method": "gt",
+    "variant": "standard",
+    "dataset": "instance",
+    "base_id": "ADE_train_00003253",
+    "label": "real"
+  },
+  {
+    "id": "gt/standard/instance/ADE_train_00003558",
+    "path": "gt/standard/instance/ADE_train_00003558.jpg",
+    "method": "gt",
+    "variant": "standard",
+    "dataset": "instance",
+    "base_id": "ADE_train_00003558",
+    "label": "real"
+  },
+  {
+    "id": "gt/standard/instance/ADE_train_00004140",
+    "path": "gt/standard/instance/ADE_train_00004140.jpg",
+    "method": "gt",
+    "variant": "standard",
+    "dataset": "instance",
+    "base_id": "ADE_train_00004140",
+    "label": "real"
+  },
+  {
+    "id": "gt/standard/instance/ADE_train_00005198",
+    "path": "gt/standard/instance/ADE_train_00005198.jpg",
+    "method": "gt",
+    "variant": "standard",
+    "dataset": "instance",
+    "base_id": "ADE_train_00005198",
+    "label": "real"
+  },
+  {
+    "id": "mixed/ortho/coco/000000000001",
+    "path": "mixed/ortho/coco/000000000001_colorized.jpg",
+    "method": "mixed",
+    "variant": "ortho",
+    "dataset": "coco",
+    "base_id": "000000000001",
+    "label": "fake"
+  },
+  {
+    "id": "mixed/ortho/coco/000000000016",
+    "path": "mixed/ortho/coco/000000000016_colorized.jpg",
+    "method": "mixed",
+    "variant": "ortho",
+    "dataset": "coco",
+    "base_id": "000000000016",
+    "label": "fake"
+  },
+  {
+    "id": "mixed/ortho/coco/000000000019",
+    "path": "mixed/ortho/coco/000000000019_colorized.jpg",
+    "method": "mixed",
+    "variant": "ortho",
+    "dataset": "coco",
+    "base_id": "000000000019",
+    "label": "fake"
+  },
+  {
+    "id": "mixed/ortho/coco/000000000057",
+    "path": "mixed/ortho/coco/000000000057_colorized.jpg",
+    "method": "mixed",
+    "variant": "ortho",
+    "dataset": "coco",
+    "base_id": "000000000057",
+    "label": "fake"
+  },
+  {
+    "id": "mixed/ortho/coco/000000000063",
+    "path": "mixed/ortho/coco/000000000063_colorized.jpg",
+    "method": "mixed",
+    "variant": "ortho",
+    "dataset": "coco",
+    "base_id": "000000000063",
+    "label": "fake"
+  },
+  {
+    "id": "mixed/ortho/imagenet/ILSVRC2012_val_00000001",
+    "path": "mixed/ortho/imagenet/ILSVRC2012_val_00000001_colorized.jpg",
+    "method": "mixed",
+    "variant": "ortho",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000001",
+    "label": "fake"
+  },
+  {
+    "id": "mixed/ortho/imagenet/ILSVRC2012_val_00000002",
+    "path": "mixed/ortho/imagenet/ILSVRC2012_val_00000002_colorized.jpg",
+    "method": "mixed",
+    "variant": "ortho",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000002",
+    "label": "fake"
+  },
+  {
+    "id": "mixed/ortho/imagenet/ILSVRC2012_val_00000003",
+    "path": "mixed/ortho/imagenet/ILSVRC2012_val_00000003_colorized.jpg",
+    "method": "mixed",
+    "variant": "ortho",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000003",
+    "label": "fake"
+  },
+  {
+    "id": "mixed/ortho/imagenet/ILSVRC2012_val_00000004",
+    "path": "mixed/ortho/imagenet/ILSVRC2012_val_00000004_colorized.jpg",
+    "method": "mixed",
+    "variant": "ortho",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000004",
+    "label": "fake"
+  },
+  {
+    "id": "mixed/ortho/imagenet/ILSVRC2012_val_00000005",
+    "path": "mixed/ortho/imagenet/ILSVRC2012_val_00000005_colorized.jpg",
+    "method": "mixed",
+    "variant": "ortho",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000005",
+    "label": "fake"
+  },
+  {
+    "id": "mixed/ortho/instance/ADE_train_00000732",
+    "path": "mixed/ortho/instance/ADE_train_00000732_colorized.jpg",
+    "method": "mixed",
+    "variant": "ortho",
+    "dataset": "instance",
+    "base_id": "ADE_train_00000732",
+    "label": "fake"
+  },
+  {
+    "id": "mixed/ortho/instance/ADE_train_00003253",
+    "path": "mixed/ortho/instance/ADE_train_00003253_colorized.jpg",
+    "method": "mixed",
+    "variant": "ortho",
+    "dataset": "instance",
+    "base_id": "ADE_train_00003253",
+    "label": "fake"
+  },
+  {
+    "id": "mixed/ortho/instance/ADE_train_00003558",
+    "path": "mixed/ortho/instance/ADE_train_00003558_colorized.jpg",
+    "method": "mixed",
+    "variant": "ortho",
+    "dataset": "instance",
+    "base_id": "ADE_train_00003558",
+    "label": "fake"
+  },
+  {
+    "id": "mixed/ortho/instance/ADE_train_00004140",
+    "path": "mixed/ortho/instance/ADE_train_00004140_colorized.jpg",
+    "method": "mixed",
+    "variant": "ortho",
+    "dataset": "instance",
+    "base_id": "ADE_train_00004140",
+    "label": "fake"
+  },
+  {
+    "id": "mixed/ortho/instance/ADE_train_00005198",
+    "path": "mixed/ortho/instance/ADE_train_00005198_colorized.jpg",
+    "method": "mixed",
+    "variant": "ortho",
+    "dataset": "instance",
+    "base_id": "ADE_train_00005198",
+    "label": "fake"
+  },
+  {
+    "id": "mixed/standard/coco/000000000001",
+    "path": "mixed/standard/coco/000000000001_colorized.jpg",
+    "method": "mixed",
+    "variant": "standard",
+    "dataset": "coco",
+    "base_id": "000000000001",
+    "label": "fake"
+  },
+  {
+    "id": "mixed/standard/coco/000000000016",
+    "path": "mixed/standard/coco/000000000016_colorized.jpg",
+    "method": "mixed",
+    "variant": "standard",
+    "dataset": "coco",
+    "base_id": "000000000016",
+    "label": "fake"
+  },
+  {
+    "id": "mixed/standard/coco/000000000019",
+    "path": "mixed/standard/coco/000000000019_colorized.jpg",
+    "method": "mixed",
+    "variant": "standard",
+    "dataset": "coco",
+    "base_id": "000000000019",
+    "label": "fake"
+  },
+  {
+    "id": "mixed/standard/coco/000000000057",
+    "path": "mixed/standard/coco/000000000057_colorized.jpg",
+    "method": "mixed",
+    "variant": "standard",
+    "dataset": "coco",
+    "base_id": "000000000057",
+    "label": "fake"
+  },
+  {
+    "id": "mixed/standard/coco/000000000063",
+    "path": "mixed/standard/coco/000000000063_colorized.jpg",
+    "method": "mixed",
+    "variant": "standard",
+    "dataset": "coco",
+    "base_id": "000000000063",
+    "label": "fake"
+  },
+  {
+    "id": "mixed/standard/imagenet/ILSVRC2012_val_00000001",
+    "path": "mixed/standard/imagenet/ILSVRC2012_val_00000001_colorized.jpg",
+    "method": "mixed",
+    "variant": "standard",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000001",
+    "label": "fake"
+  },
+  {
+    "id": "mixed/standard/imagenet/ILSVRC2012_val_00000002",
+    "path": "mixed/standard/imagenet/ILSVRC2012_val_00000002_colorized.jpg",
+    "method": "mixed",
+    "variant": "standard",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000002",
+    "label": "fake"
+  },
+  {
+    "id": "mixed/standard/imagenet/ILSVRC2012_val_00000003",
+    "path": "mixed/standard/imagenet/ILSVRC2012_val_00000003_colorized.jpg",
+    "method": "mixed",
+    "variant": "standard",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000003",
+    "label": "fake"
+  },
+  {
+    "id": "mixed/standard/imagenet/ILSVRC2012_val_00000004",
+    "path": "mixed/standard/imagenet/ILSVRC2012_val_00000004_colorized.jpg",
+    "method": "mixed",
+    "variant": "standard",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000004",
+    "label": "fake"
+  },
+  {
+    "id": "mixed/standard/imagenet/ILSVRC2012_val_00000005",
+    "path": "mixed/standard/imagenet/ILSVRC2012_val_00000005_colorized.jpg",
+    "method": "mixed",
+    "variant": "standard",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000005",
+    "label": "fake"
+  },
+  {
+    "id": "mixed/standard/instance/ADE_train_00000732",
+    "path": "mixed/standard/instance/ADE_train_00000732_colorized.jpg",
+    "method": "mixed",
+    "variant": "standard",
+    "dataset": "instance",
+    "base_id": "ADE_train_00000732",
+    "label": "fake"
+  },
+  {
+    "id": "mixed/standard/instance/ADE_train_00003253",
+    "path": "mixed/standard/instance/ADE_train_00003253_colorized.jpg",
+    "method": "mixed",
+    "variant": "standard",
+    "dataset": "instance",
+    "base_id": "ADE_train_00003253",
+    "label": "fake"
+  },
+  {
+    "id": "mixed/standard/instance/ADE_train_00003558",
+    "path": "mixed/standard/instance/ADE_train_00003558_colorized.jpg",
+    "method": "mixed",
+    "variant": "standard",
+    "dataset": "instance",
+    "base_id": "ADE_train_00003558",
+    "label": "fake"
+  },
+  {
+    "id": "mixed/standard/instance/ADE_train_00004140",
+    "path": "mixed/standard/instance/ADE_train_00004140_colorized.jpg",
+    "method": "mixed",
+    "variant": "standard",
+    "dataset": "instance",
+    "base_id": "ADE_train_00004140",
+    "label": "fake"
+  },
+  {
+    "id": "mixed/standard/instance/ADE_train_00005198",
+    "path": "mixed/standard/instance/ADE_train_00005198_colorized.jpg",
+    "method": "mixed",
+    "variant": "standard",
+    "dataset": "instance",
+    "base_id": "ADE_train_00005198",
+    "label": "fake"
+  },
+  {
+    "id": "unicolor/ortho/coco/000000000001",
+    "path": "unicolor/ortho/coco/000000000001.jpg",
+    "method": "unicolor",
+    "variant": "ortho",
+    "dataset": "coco",
+    "base_id": "000000000001",
+    "label": "fake"
+  },
+  {
+    "id": "unicolor/ortho/coco/000000000016",
+    "path": "unicolor/ortho/coco/000000000016.jpg",
+    "method": "unicolor",
+    "variant": "ortho",
+    "dataset": "coco",
+    "base_id": "000000000016",
+    "label": "fake"
+  },
+  {
+    "id": "unicolor/ortho/coco/000000000019",
+    "path": "unicolor/ortho/coco/000000000019.jpg",
+    "method": "unicolor",
+    "variant": "ortho",
+    "dataset": "coco",
+    "base_id": "000000000019",
+    "label": "fake"
+  },
+  {
+    "id": "unicolor/ortho/coco/000000000057",
+    "path": "unicolor/ortho/coco/000000000057.jpg",
+    "method": "unicolor",
+    "variant": "ortho",
+    "dataset": "coco",
+    "base_id": "000000000057",
+    "label": "fake"
+  },
+  {
+    "id": "unicolor/ortho/coco/000000000063",
+    "path": "unicolor/ortho/coco/000000000063.jpg",
+    "method": "unicolor",
+    "variant": "ortho",
+    "dataset": "coco",
+    "base_id": "000000000063",
+    "label": "fake"
+  },
+  {
+    "id": "unicolor/ortho/imagenet/ILSVRC2012_val_00000001",
+    "path": "unicolor/ortho/imagenet/ILSVRC2012_val_00000001.jpg",
+    "method": "unicolor",
+    "variant": "ortho",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000001",
+    "label": "fake"
+  },
+  {
+    "id": "unicolor/ortho/imagenet/ILSVRC2012_val_00000002",
+    "path": "unicolor/ortho/imagenet/ILSVRC2012_val_00000002.jpg",
+    "method": "unicolor",
+    "variant": "ortho",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000002",
+    "label": "fake"
+  },
+  {
+    "id": "unicolor/ortho/imagenet/ILSVRC2012_val_00000003",
+    "path": "unicolor/ortho/imagenet/ILSVRC2012_val_00000003.jpg",
+    "method": "unicolor",
+    "variant": "ortho",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000003",
+    "label": "fake"
+  },
+  {
+    "id": "unicolor/ortho/imagenet/ILSVRC2012_val_00000004",
+    "path": "unicolor/ortho/imagenet/ILSVRC2012_val_00000004.jpg",
+    "method": "unicolor",
+    "variant": "ortho",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000004",
+    "label": "fake"
+  },
+  {
+    "id": "unicolor/ortho/imagenet/ILSVRC2012_val_00000005",
+    "path": "unicolor/ortho/imagenet/ILSVRC2012_val_00000005.jpg",
+    "method": "unicolor",
+    "variant": "ortho",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000005",
+    "label": "fake"
+  },
+  {
+    "id": "unicolor/ortho/instance/ADE_train_00000732",
+    "path": "unicolor/ortho/instance/ADE_train_00000732.jpg",
+    "method": "unicolor",
+    "variant": "ortho",
+    "dataset": "instance",
+    "base_id": "ADE_train_00000732",
+    "label": "fake"
+  },
+  {
+    "id": "unicolor/ortho/instance/ADE_train_00003253",
+    "path": "unicolor/ortho/instance/ADE_train_00003253.jpg",
+    "method": "unicolor",
+    "variant": "ortho",
+    "dataset": "instance",
+    "base_id": "ADE_train_00003253",
+    "label": "fake"
+  },
+  {
+    "id": "unicolor/ortho/instance/ADE_train_00003558",
+    "path": "unicolor/ortho/instance/ADE_train_00003558.jpg",
+    "method": "unicolor",
+    "variant": "ortho",
+    "dataset": "instance",
+    "base_id": "ADE_train_00003558",
+    "label": "fake"
+  },
+  {
+    "id": "unicolor/ortho/instance/ADE_train_00004140",
+    "path": "unicolor/ortho/instance/ADE_train_00004140.jpg",
+    "method": "unicolor",
+    "variant": "ortho",
+    "dataset": "instance",
+    "base_id": "ADE_train_00004140",
+    "label": "fake"
+  },
+  {
+    "id": "unicolor/ortho/instance/ADE_train_00005198",
+    "path": "unicolor/ortho/instance/ADE_train_00005198.jpg",
+    "method": "unicolor",
+    "variant": "ortho",
+    "dataset": "instance",
+    "base_id": "ADE_train_00005198",
+    "label": "fake"
+  },
+  {
+    "id": "unicolor/standard/coco/000000000001",
+    "path": "unicolor/standard/coco/000000000001.jpg",
+    "method": "unicolor",
+    "variant": "standard",
+    "dataset": "coco",
+    "base_id": "000000000001",
+    "label": "fake"
+  },
+  {
+    "id": "unicolor/standard/coco/000000000016",
+    "path": "unicolor/standard/coco/000000000016.jpg",
+    "method": "unicolor",
+    "variant": "standard",
+    "dataset": "coco",
+    "base_id": "000000000016",
+    "label": "fake"
+  },
+  {
+    "id": "unicolor/standard/coco/000000000019",
+    "path": "unicolor/standard/coco/000000000019.jpg",
+    "method": "unicolor",
+    "variant": "standard",
+    "dataset": "coco",
+    "base_id": "000000000019",
+    "label": "fake"
+  },
+  {
+    "id": "unicolor/standard/coco/000000000057",
+    "path": "unicolor/standard/coco/000000000057.jpg",
+    "method": "unicolor",
+    "variant": "standard",
+    "dataset": "coco",
+    "base_id": "000000000057",
+    "label": "fake"
+  },
+  {
+    "id": "unicolor/standard/coco/000000000063",
+    "path": "unicolor/standard/coco/000000000063.jpg",
+    "method": "unicolor",
+    "variant": "standard",
+    "dataset": "coco",
+    "base_id": "000000000063",
+    "label": "fake"
+  },
+  {
+    "id": "unicolor/standard/imagenet/ILSVRC2012_val_00000001",
+    "path": "unicolor/standard/imagenet/ILSVRC2012_val_00000001.jpg",
+    "method": "unicolor",
+    "variant": "standard",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000001",
+    "label": "fake"
+  },
+  {
+    "id": "unicolor/standard/imagenet/ILSVRC2012_val_00000002",
+    "path": "unicolor/standard/imagenet/ILSVRC2012_val_00000002.jpg",
+    "method": "unicolor",
+    "variant": "standard",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000002",
+    "label": "fake"
+  },
+  {
+    "id": "unicolor/standard/imagenet/ILSVRC2012_val_00000003",
+    "path": "unicolor/standard/imagenet/ILSVRC2012_val_00000003.jpg",
+    "method": "unicolor",
+    "variant": "standard",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000003",
+    "label": "fake"
+  },
+  {
+    "id": "unicolor/standard/imagenet/ILSVRC2012_val_00000004",
+    "path": "unicolor/standard/imagenet/ILSVRC2012_val_00000004.jpg",
+    "method": "unicolor",
+    "variant": "standard",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000004",
+    "label": "fake"
+  },
+  {
+    "id": "unicolor/standard/imagenet/ILSVRC2012_val_00000005",
+    "path": "unicolor/standard/imagenet/ILSVRC2012_val_00000005.jpg",
+    "method": "unicolor",
+    "variant": "standard",
+    "dataset": "imagenet",
+    "base_id": "ILSVRC2012_val_00000005",
+    "label": "fake"
+  },
+  {
+    "id": "unicolor/standard/instance/ADE_train_00000732",
+    "path": "unicolor/standard/instance/ADE_train_00000732.jpg",
+    "method": "unicolor",
+    "variant": "standard",
+    "dataset": "instance",
+    "base_id": "ADE_train_00000732",
+    "label": "fake"
+  },
+  {
+    "id": "unicolor/standard/instance/ADE_train_00003253",
+    "path": "unicolor/standard/instance/ADE_train_00003253.jpg",
+    "method": "unicolor",
+    "variant": "standard",
+    "dataset": "instance",
+    "base_id": "ADE_train_00003253",
+    "label": "fake"
+  },
+  {
+    "id": "unicolor/standard/instance/ADE_train_00003558",
+    "path": "unicolor/standard/instance/ADE_train_00003558.jpg",
+    "method": "unicolor",
+    "variant": "standard",
+    "dataset": "instance",
+    "base_id": "ADE_train_00003558",
+    "label": "fake"
+  },
+  {
+    "id": "unicolor/standard/instance/ADE_train_00004140",
+    "path": "unicolor/standard/instance/ADE_train_00004140.jpg",
+    "method": "unicolor",
+    "variant": "standard",
+    "dataset": "instance",
+    "base_id": "ADE_train_00004140",
+    "label": "fake"
+  },
+  {
+    "id": "unicolor/standard/instance/ADE_train_00005198",
+    "path": "unicolor/standard/instance/ADE_train_00005198.jpg",
+    "method": "unicolor",
+    "variant": "standard",
+    "dataset": "instance",
+    "base_id": "ADE_train_00005198",
+    "label": "fake"
+  }
+]
